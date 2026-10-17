@@ -1,0 +1,12 @@
+fastapi>=0.141
+uvicorn>=0.53
+python-multipart>=0.0.32
+pydantic>=2.13
+requests>=2.34
+pycryptodome>=3.23
+pysocks>=1.7.1
+psutil>=7.2
+# Browser TLS impersonation — required for TikTok's WAF (live check + recording).
+curl_cffi>=0.11
+yt-dlp
+
